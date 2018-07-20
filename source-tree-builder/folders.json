@@ -1,0 +1,10 @@
+[
+  {"name": "root", "sub_folders": []},
+  {"name": "root/child", "sub_folders": []},
+  {"name": "root/child//", "sub_folders": []},
+  {"name": "root/second_child", "sub_folders": []},
+  {"name": "root/second_child/deep_child", "sub_folders": []},
+  {"name": "root/second_child/deep_child//", "sub_folders": []},
+  {"name": "root/second_child//", "sub_folders": []},
+  {"name": "root/second_child///under_slash_child", "sub_folders": []}
+]
