@@ -1,7 +1,6 @@
 {
-  "name": "tw-parse",
+  "name": "parse-csv",
   "version": "0.0.0",
-  "private": true,
   "scripts": {
     "start": "node ./bin/www"
   },
@@ -12,8 +11,7 @@
     "http-errors": "~1.6.2",
     "jade": "~1.11.0",
     "mongoose": "^5.2.1",
-    "morgan": "~1.9.0",
-    "twitter": "^1.7.1"
+    "morgan": "~1.9.0"
   },
   "devDependencies": {
     "nodemon": "^1.17.5"
