@@ -7,15 +7,9 @@ a {
   color: #00B7FF;
 }
 
-table {
-  text-align: left;
-}
-
-table th {
-  border: 1px solid;
-}
-
-thead th {
-  padding: 1rem;
-  background-color: beige;
+form {
+  border: 2px solid grey;
+  max-width: 300px;
+  padding: 2rem;
+  margin: 1rem;
 }

@@ -2,18 +2,10 @@ extends layout
 
 block content
   h1= title
-  table
-    thead
-      tr
-        th Date
-        th User
-        th Avatar
-        th Text
-    tbody
-      each val in tweets
-        tr
-          th= val.date
-          th= val.user.name
-          th
-            img(src=val.user.avatar)
-          th= val.text
+  form(method='post', enctype='multipart/form-data')
+    input(type='file', name='csvFile')
+    input(type='submit', value='Upload')
+  form(action='/download', method='post', enctype='multipart/form-data')
+    span= 'Download CSV file with data'
+    br
+    input(type='submit', name='getFile' value='Download')
